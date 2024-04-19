@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*background-color: #E9F0F8;*/
+}
+
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    position: relative;
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.navigation a:hover {
+    background-color: #004d8c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header {
+    background-color: #008cff;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+    font-family: 'Lucida Grande', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header:hover {
+    background-color: #004d8c;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    display: inline-block;
+    background-color: #a2bee0;
+}
+
+.avatar-link {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.avatar-link:hover {
+    transform: scale(1.1);
+}
+
+.background-image {
+    background-image: url("../../assets/images/wallpapers/felix-mittermeier-Knwea-mLGAg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind other content */
+    opacity: 90%;
+}
+

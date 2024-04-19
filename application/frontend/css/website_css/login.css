@@ -1,0 +1,63 @@
+/*
+    Styling for the login page
+*/
+#loginForm {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm h2 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+#loginForm button {
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#loginForm button {
+    background-color: #008cff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#loginForm button:hover {
+    background-color: #004d8c;
+    font-weight: bold;
+}
+
+#registrationLink {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#registrationLink a {
+    color: #000;
+    text-decoration: none;
+}
+
+#registrationLink a:hover {
+    color: #0388f6;
+    font-weight: bold;
+}

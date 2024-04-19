@@ -1,0 +1,138 @@
+/* Styling for the upload photos page */
+.centered-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-button {
+    width: 25%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #008cff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button {
+        width: 100px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+}
+
+.upload-button:hover {
+    background-color: #004d8c;
+    font-weight: bold;
+}
+
+.heading {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-info {
+    font-size: 18px;
+    text-align: center;
+}
+
+.upload-progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #a2bee0;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.progress {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.progress-info {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.delete-icon,
+.edit-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.delete-icon {
+    background-color: #ff0000;
+}
+
+.edit-icon {
+    top: 55px;
+    background-color: #00ff22;
+}
+
+.delete-icon:hover {
+    background-color: #cc0000;
+}
+
+.edit-icon:hover {
+    background-color: #00cc1f;
+}
+
+.drop-zone {
+    max-width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    /*margin-bottom: 20px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-message {
+    font-size: 18px;
+}
+
+.image-preview {
+    margin-bottom: 5px;
+    border: 2px dashed #4682B4; /
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+}
+
+/*.image-preview img {*/
+/*    max-width: 100px;*/
+/*    max-height: 100px;*/
+/*    margin-right: 5px;*/
+/*}*/
+
