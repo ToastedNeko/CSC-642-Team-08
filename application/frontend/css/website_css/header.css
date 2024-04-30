@@ -72,6 +72,7 @@ header a h1 {
     right: 10px;
     margin: 5px;
     transition: transform 0.3s, box-shadow 0.3s;
+    /*z-index: 1;*/
 }
 
 .avatar-link:hover {
@@ -91,3 +92,10 @@ header a h1 {
     opacity: 90%;
 }
 
+@media screen and (max-width: 768px) {
+    /* Adjust avatar position for smaller screens */
+    .avatar-link {
+        position: relative;
+        top: 20px;
+    }
+}
