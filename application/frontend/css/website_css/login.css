@@ -1,8 +1,5 @@
-/*
-    Styling for the login page
-*/
 #loginForm {
-    max-width: 300px;
+    max-width: 400px;
     margin: 100px auto;
     padding: 20px;
     background-color: #fff;
