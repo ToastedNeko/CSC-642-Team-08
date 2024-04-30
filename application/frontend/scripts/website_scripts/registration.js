@@ -32,6 +32,11 @@ form.addEventListener('submit', function(event) {
 
     if (!isValid) {
         event.preventDefault();
+    } else {
+        event.preventDefault();
+        alert('Registration successful!');
+        console.log('Redirecting to login page...');
+        window.location.href = '../../html/website_html/login.html';
     }
 });
 
