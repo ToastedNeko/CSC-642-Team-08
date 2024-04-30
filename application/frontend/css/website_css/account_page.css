@@ -40,3 +40,21 @@
 .info input[type="checkbox"] + label {
     margin-left: 5px;
 }
+
+#saveSettings {
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: #008cff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#saveSettings:hover {
+    background-color: #004d8c;
+    font-weight: bold;
+}
