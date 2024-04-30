@@ -22,7 +22,34 @@
 </a>
 <div class="background-image"></div>
 
-
+<div class="account-content">
+    <h2>Account Page</h2>
+    <div class="account-settings">
+        <div id="settings-form">
+            <h3>Account Information</h3>
+            <div class="info">
+                <label for="username">Username:</label>
+                <span id="username">photo_user</span>
+            </div>
+            <div class="info">
+                <label for="email">Email:</label>
+                <span id="email">photo_user@email.com</span>
+            </div>
+            <div class="info">
+                <label>Receive Notifications:</label>
+                <div>
+                    <input type="radio" id="notificationsOn" name="notifications" value="on" checked>
+                    <label for="notificationsOn">On</label>
+                </div>
+                <div>
+                    <input type="radio" id="notificationsOff" name="notifications" value="off">
+                    <label for="notificationsOff">Off</label>
+                </div>
+            </div>
+            <button id="saveSettings">Save Settings</button>
+        </div>
+    </div>
+</div>
 
 <script src="../../scripts/website_scripts/account_page.js"></script>
 </body>
