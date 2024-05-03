@@ -12,7 +12,7 @@ function login() {
         sessionStorage.setItem('username', username);
         console.log(window.location.href);
         alert('You are logged in as: ' + username);
-        window.location.href = '../../index.html';
+        window.location.href = '../../homepage.html';
         console.log('User is logged in as:', username);
     } else {
         alert('Please enter a username and password');
