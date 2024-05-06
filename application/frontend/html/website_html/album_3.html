@@ -26,6 +26,12 @@
     <button id="saveAlbumName" onclick="saveAlbumName()">Save</button>
 </div>
 
+<div class="sorting-buttons">
+    <button onclick="sort('year')">Year</button>
+    <button onclick="sort('month')">Month</button>
+    <button onclick="sort('date')">Date</button>
+</div>
+
 <div class="photo-grid">
     <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/pexels-alina-chernii-682289345-21529784.jpg" alt="Photo 1"></div>
     <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/pexels-aloevera-21751135.jpg" alt="Photo 2"></div>
@@ -41,11 +47,7 @@
     <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/pexels-matteo-roman-1151921619-21358261.jpg" alt="Photo 12"></div>
 </div>
 
-<div class="sticky-controls">
-    <button onclick="showByYear()">Year</button>
-    <button onclick="showByMonth()">Month</button>
-    <button onclick="showByDate()">Date</button>
-</div>
+
 
 
 <div id="contextMenu" style="display: none; position: absolute; z-index: 1500; background: white; border: 1px solid #ccc; padding: 5px;">

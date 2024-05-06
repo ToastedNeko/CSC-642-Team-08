@@ -12,3 +12,4 @@ function saveAlbumName() {
     // Make the input field read-only again
     inputField.readOnly = true;
 }
+

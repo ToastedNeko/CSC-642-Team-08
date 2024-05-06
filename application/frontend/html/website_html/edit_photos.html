@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Edit Photos</title>
+    <base href="/application/frontend/html/website_html/">
     <link rel="stylesheet" href="../../css/website_css/edit_photos.css">
     <link rel="stylesheet" href="../../css/website_css/header.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap">
@@ -20,10 +21,20 @@
 <a href="../../html/website_html/account_page.html" class="avatar-link">
     <img src="../../assets/images/avatars/pika.png" alt="Avatar" class="avatar">
 </a>
+
+<!-- Photo Editing Section -->
+<div class="edit-photo-container">
+    <h2>Edit Photo Details</h2>
+    <img id="photoToEdit" src="" alt="Editable Photo"> <!-- Image to be loaded dynamically -->
+    <label for="photoTitle">Photo Title:</label>
+    <input type="text" id="photoTitle" placeholder="Enter new title here">
+    <!-- Add more fields and buttons as needed -->
+</div>
+
 <div class="background-image"></div>
 
-
-
 <script src="../../scripts/website_scripts/edit_photos.js"></script>
+<script src="../../scripts/website_scripts/browse_photos.js"></script>
+
 </body>
 </html>
