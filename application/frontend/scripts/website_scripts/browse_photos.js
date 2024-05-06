@@ -17,8 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    
-
     document.addEventListener('click', function(event) {
         if (!event.target.closest('#contextMenu') && event.button !== 2) {
             contextMenu.style.display = 'none';
@@ -44,4 +42,8 @@ function editPhoto() {
 
 function addToAlbum() {
     console.log('Add to album option selected');
+}
+
+function openEditPhotoPage(imageSrc) {
+    window.location.href = "../../html/website_html/edit_photo.html?photoId=" + encodeURIComponent(imageSrc);
 }

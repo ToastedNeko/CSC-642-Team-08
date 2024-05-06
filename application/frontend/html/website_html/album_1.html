@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse Albums</title>
     <link rel="stylesheet" href="../../css/website_css/browse_photos.css">
     <link rel="stylesheet" href="../../css/website_css/header.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap">
 </head>
+
 <body>
 <nav class="navigation">
     <header>
@@ -32,18 +33,18 @@
 </div>
 
 <div class="photo-grid">
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/5d035-16466484525958-1920.avif" alt="Photo 1" data-id="1"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/collage-maker-31-may-2023-08-39-pm-2169.avif" alt="Photo 2" data-id="2"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/collage-maker-31-may-2023-08-45-pm-3200.avif" alt="Photo 3" data-id="3"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images.jpg" alt="Photo 4" data-id="4"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images1111.jpg" alt="Photo 5" data-id="5"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images1231231.jpg" alt="Photo 6" data-id="6"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images3.jpg" alt="Photo 7" data-id="7"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/kimetsu-no-yaiba-1123123.webp" alt="Photo 8" data-id="8"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/kimetsu-no-yaiba-2.jpg" alt="Photo 9" data-id="9"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/Rehabilitation_Training_Arc.webp" alt="Photo 10" data-id="10"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp" alt="Photo 11" data-id="11"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/pexels-matteo-roman-1151921619-21358261.jpg" alt="Photo 12" data-id="12"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/5d035-16466484525958-1920.avif" alt="Photo 1" data-id="1" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/5d035-16466484525958-1920.avif')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/collage-maker-31-may-2023-08-39-pm-2169.avif" alt="Photo 2" data-id="2" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/collage-maker-31-may-2023-08-39-pm-2169.avif')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/collage-maker-31-may-2023-08-45-pm-3200.avif" alt="Photo 3" data-id="3" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/collage-maker-31-may-2023-08-45-pm-3200.avif')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images.jpg" alt="Photo 4" data-id="4" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/images.jpg')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images1111.jpg" alt="Photo 5" data-id="5" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/images1111.jpg')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images1231231.jpg" alt="Photo 6" data-id="6" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/images1231231.jpg')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/images3.jpg" alt="Photo 7" data-id="7" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/images3.jpg')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/kimetsu-no-yaiba-1123123.webp" alt="Photo 8" data-id="8" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/kimetsu-no-yaiba-1123123.webp')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/kimetsu-no-yaiba-2.jpg" alt="Photo 9" data-id="9" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/kimetsu-no-yaiba-2.jpg')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/Rehabilitation_Training_Arc.webp" alt="Photo 10" data-id="10" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/Rehabilitation_Training_Arc.webp')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp" alt="Photo 11" data-id="11" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/pexels-matteo-roman-1151921619-21358261.jpg" alt="Photo 12" data-id="12" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/pexels-matteo-roman-1151921619-21358261.jpg')"></div>
 </div>
 
 <div id="contextMenu" style="display: none; position: absolute; z-index: 1500; background: white; border: 1px solid #ccc; padding: 5px;">
@@ -57,6 +58,6 @@
 
 <script src="../../scripts/website_scripts/browse_photos.js"></script>
 <script src="../../scripts/website_scripts/browse_albums.js"></script>
-
+<script src="../../scripts/website_scripts/edit_photos.js"></script>
 </body>
 </html>

@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         "35": "/application/frontend/assets/images/displayPhotos/pexels-marko_aim-537690234-16549122.jpg",
         "36": "/application/frontend/assets/images/displayPhotos/pexels-matteo-roman-1151921619-21358261.jpg"
     };
-    
 
     const photoToEdit = document.getElementById('photoToEdit');
     if (photoId && photoDatabase[photoId]) {
