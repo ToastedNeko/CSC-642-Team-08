@@ -1,5 +1,25 @@
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.album {
+    width: 200px;  
+    margin: 15px;
+    text-align: center;
+}
 
-@media only screen and (max-width: 768px) {
+.album img {
+    width: 100%;  
+    height: auto;
+    border-radius: 8px;  
+}
 
+.album-title {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #fff;  
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
