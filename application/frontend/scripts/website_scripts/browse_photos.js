@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    
+
     document.addEventListener('click', function(event) {
         if (!event.target.closest('#contextMenu') && event.button !== 2) {
             contextMenu.style.display = 'none';
