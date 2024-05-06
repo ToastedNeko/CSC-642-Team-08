@@ -1,5 +1,47 @@
+.navigation, .avatar-link, .photo-grid, .sorting-buttons {
+    width: 100%; /
+}
+
+.sorting-buttons {
+    position: fixed;   
+    bottom: 0;        
+    width: 100%;        
+    background-color: white; 
+    border-top: 1px solid #ccc; 
+    padding: 10px 20px;
+    z-index: 1000;      
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sorting-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f4f4f4; 
+    border: none;
+    border-radius: 5px; 
+}
 
 
-@media only screen and (max-width: 768px) {
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px; 
+}
 
+.photo-item {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #f0f0f0;
 }
