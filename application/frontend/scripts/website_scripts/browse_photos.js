@@ -43,7 +43,3 @@ function editPhoto() {
 function addToAlbum() {
     console.log('Add to album option selected');
 }
-
-function openEditPhotoPage(imageSrc) {
-    window.location.href = "../../html/website_html/edit_photo.html?photoId=" + encodeURIComponent(imageSrc);
-}
