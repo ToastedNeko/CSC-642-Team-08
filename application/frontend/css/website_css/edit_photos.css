@@ -1,5 +1,5 @@
 .edit-photo-container {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .edit-photo-container img {
-    width: 400px; 
+    width: 400px;
     height: 400px; 
     object-fit: cover; 
     border: 2px solid white; 
