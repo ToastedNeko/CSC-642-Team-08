@@ -22,8 +22,9 @@
 .recent-images {
     font-weight: bold;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     color: #ffffff;
     font-family: 'Lucida Grande', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
 }
