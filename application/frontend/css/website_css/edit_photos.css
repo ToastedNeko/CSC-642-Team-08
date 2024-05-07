@@ -8,10 +8,12 @@
 }
 
 .edit-photo-container h2 {
-    font-size: 24px;
+    font-size: 30px;
+    font-family: 'Lucida Grande', Tahoma, Geneva, Verdana, sans-serif;
     color: white; 
     font-weight: bold; 
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .edit-photo-container img {
@@ -19,7 +21,10 @@
     height: 400px; 
     object-fit: cover; 
     border: 2px solid white; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 100px auto;
+
+
 }
 
 label {

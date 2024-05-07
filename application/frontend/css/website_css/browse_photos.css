@@ -4,12 +4,12 @@
 
 .sorting-buttons {
     position: fixed;
-    bottom: 0;        
+    bottom: 0;
     width: 100%;
-    background-color: white; 
-    border-top: 1px solid #ccc; 
+    background-color: white;
+    border-top: 1px solid #ccc;
     padding: 10px 20px;
-    z-index: 1000;      
+    z-index: 1000;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -19,9 +19,9 @@
     padding: 0 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .photo-grid {
