@@ -91,11 +91,3 @@ header a h1 {
     z-index: -1; /* Ensure it's behind other content */
     opacity: 80%;
 }
-
-@media screen and (max-width: 768px) {
-    /* Adjust avatar position for smaller screens */
-    .avatar-link {
-        position: relative;
-        top: 20px;
-    }
-}
