@@ -43,3 +43,4 @@ function editPhoto() {
 function addToAlbum() {
     console.log('Add to album option selected');
 }
+
