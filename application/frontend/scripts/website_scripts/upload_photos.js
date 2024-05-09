@@ -128,7 +128,13 @@ function simulateUpload() {
 
             // Clear the upload button disabled state
             uploadButton.disabled = false;
+
+            // Show a mock upload alert
+            setTimeout(() => {
+                alert('Upload completed!');
+            }, 250);
         }
-    }, 200); // Adjust interval
+    }, 200);
 }
+
 

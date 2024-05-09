@@ -1,5 +1,5 @@
 /*
-* Display collage of all photos from the website
+* This script displays a collage of all photos from each of the albums available.
 *
 * */
 

@@ -1,3 +1,9 @@
+/*
+* This script allows a user to click each individual photo in a selected album.
+* The photo can be right-clicked to: mock edit, mock save to an album, or mock share.
+*
+* */
+
 function hideContextMenu() {
     const contextMenu = document.getElementById('contextMenu');
     contextMenu.style.display = 'none';
