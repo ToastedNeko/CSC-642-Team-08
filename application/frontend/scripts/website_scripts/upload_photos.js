@@ -136,5 +136,3 @@ function simulateUpload() {
         }
     }, 200);
 }
-
-
