@@ -1,6 +1,6 @@
 /*
-* Allow a user to add images to the page.
-* This only shows the image but doesn't store it.
+* This script allows a user to add images to the page.
+* This only shows the image; it doesn't store it.
 *
 * */
 

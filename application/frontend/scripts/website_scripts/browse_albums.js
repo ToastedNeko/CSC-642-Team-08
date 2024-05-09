@@ -1,3 +1,7 @@
+/*
+* This script mock saves an album.
+*
+* */
 function saveAlbumName() {
     const inputField = document.getElementById('albumName');
     const newName = inputField.value;

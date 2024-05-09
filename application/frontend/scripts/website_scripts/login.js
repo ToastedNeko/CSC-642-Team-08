@@ -1,5 +1,5 @@
 /*
-* Demonstration login with mock session username
+* This script demonstrates login with mock session username
 *
 * */
 function login() {

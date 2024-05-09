@@ -1,3 +1,8 @@
+/*
+* This script allows a user to register for a mock account.
+*
+* */
+
 const form = document.getElementById('registrationForm');
 const username = document.getElementById('username');
 const email = document.getElementById('email');

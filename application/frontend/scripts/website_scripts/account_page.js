@@ -1,4 +1,7 @@
-// account_page.js
+/*
+* This script allows mock settings to be saved for a user.
+*
+* */
 
 document.addEventListener('DOMContentLoaded', function () {
     const saveSettingsButton = document.getElementById('saveSettings');

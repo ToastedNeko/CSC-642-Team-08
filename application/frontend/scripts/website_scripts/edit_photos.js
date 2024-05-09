@@ -1,3 +1,8 @@
+/*
+* This script mock edits a selected phone from an album.
+*
+* */
+
 document.addEventListener('DOMContentLoaded', function() {
     const params = new URLSearchParams(window.location.search);
     const photoId = params.get('photoId');
