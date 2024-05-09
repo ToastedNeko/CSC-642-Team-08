@@ -23,7 +23,8 @@
 </a>
 
 <div class="album-name-container">
-    <input id="albumName" type="text" value="Album 2" readonly ondblclick="this.readOnly='';" onblur="this.readOnly=true;">
+    <input id="albumName" type="text" value="Album 2" readonly ondblclick="this.readOnly='';"
+           onblur="this.readOnly=true;">
     <button id="saveAlbumName" onclick="saveAlbumName()">SAVE</button>
 </div>
 <div class="sorting-buttons">
@@ -33,24 +34,26 @@
 </div>
 
 <div class="photo-grid">
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6easdsadasdd72e5d34691cc2d.jpg" alt="Photo 13" data-id="13" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6easdsadasdd72e5d34691cc2d.jpg')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6edd72e5d34691cc2d.jpg" alt="Photo 14" data-id="14" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6edd72e5d34691cc2d.jpg')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/b_WALL-MARIA-Tecnografica-579930-rel345d3307.webp" alt="Photo 15" data-id="15" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/b_WALL-MARIA-Tecnografica-579930-rel345d3307.webp')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/cdb862163f4f6db92d1d095570319c33.jpg" alt="Photo 16" data-id="16" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/cdb862163f4f6db92d1d095570319c33.jpg')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/DgdOVPYXUAApagVzzzzz.jpg" alt="Photo 17" data-id="17" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/DgdOVPYXUAApagVzzzzz.jpg')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/episode-1-wall-maria-shiganshina.webp" alt="Photo 18" data-id="18" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/episode-1-wall-maria-shiganshina.webp')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/images.jpg" alt="Photo 19" data-id="19" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/images.jpg')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/imagesaaaaa.jpg" alt="Photo 20" data-id="20" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/imagesaaaaa.jpg')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp" alt="Photo 21" data-id="21" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp" alt="Photo 22" data-id="22" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp" alt="Photo 23" data-id="23" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp')"></div>
-    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/zzzzz.png" alt="Photo 24" data-id="24" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/zzzzz.png')"></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6easdsadasdd72e5d34691cc2d.jpg" alt="Photo 13" data-id="13" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6easdsadasdd72e5d34691cc2d.jpg')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6easdsadasdd72e5d34691cc2d.jpg')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6edd72e5d34691cc2d.jpg" alt="Photo 14" data-id="14" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6edd72e5d34691cc2d.jpg')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/a4803d074353bf6edd72e5d34691cc2d.jpg')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/b_WALL-MARIA-Tecnografica-579930-rel345d3307.webp" alt="Photo 15" data-id="15" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/b_WALL-MARIA-Tecnografica-579930-rel345d3307.webp')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/b_WALL-MARIA-Tecnografica-579930-rel345d3307.webp')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/cdb862163f4f6db92d1d095570319c33.jpg" alt="Photo 16" data-id="16" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/cdb862163f4f6db92d1d095570319c33.jpg')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/cdb862163f4f6db92d1d095570319c33.jpg')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/DgdOVPYXUAApagVzzzzz.jpg" alt="Photo 17" data-id="17" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/DgdOVPYXUAApagVzzzzz.jpg')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/DgdOVPYXUAApagVzzzzz.jpg')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/episode-1-wall-maria-shiganshina.webp" alt="Photo 18" data-id="18" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/episode-1-wall-maria-shiganshina.webp')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/episode-1-wall-maria-shiganshina.webp')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/images.jpg" alt="Photo 19" data-id="19" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/images.jpg')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/images.jpg')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/imagesaaaaa.jpg" alt="Photo 20" data-id="20" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/imagesaaaaa.jpg')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/imagesaaaaa.jpg')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp" alt="Photo 21" data-id="21" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp" alt="Photo 22" data-id="22" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/Witnessing.webp')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp" alt="Photo 23" data-id="23" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album1/Tsuzumi_Mansion.webp')">Share</button></div>
+    <div class="photo-item"><img src="/application/frontend/assets/images/displayPhotos/album2/zzzzz.png" alt="Photo 24" data-id="24" onclick="editPhoto('/application/frontend/assets/images/displayPhotos/album2/zzzzz.png')"><button class="share-button" onclick="sharePhoto('/application/frontend/assets/images/displayPhotos/album2/zzzzz.png')">Share</button></div>
 </div>
 
-<div id="contextMenu" style="display: none; position: absolute; z-index: 1500; background: white; border: 1px solid #ccc; padding: 5px;">
+<div id="contextMenu"
+     style="display: none; position: absolute; z-index: 1500; background: white; border: 1px solid #ccc; padding: 5px;">
     <ul>
-        <li onclick="editPhoto()">Edit Photo</li>
-        <li onclick="addToAlbum()">Add to Album</li>
+        <li onclick="editPhoto(); hideContextMenu()">Edit Photo</li>
+        <li onclick="addToAlbum(); hideContextMenu()">Add to Album</li>
+        <li onclick="sharePhoto(); hideContextMenu()">Share Photo</li>
     </ul>
 </div>
 

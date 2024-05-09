@@ -1,3 +1,8 @@
+function hideContextMenu() {
+    const contextMenu = document.getElementById('contextMenu');
+    contextMenu.style.display = 'none';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const images = document.querySelectorAll('.photo-item img');
     const contextMenu = document.getElementById('contextMenu');
@@ -16,18 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('#contextMenu') && event.button !== 2) {
-            contextMenu.style.display = 'none';
-        }
-    });
-
-    document.addEventListener('contextmenu', function(event) {
-        if (!event.target.closest('.photo-item img')) {
-            contextMenu.style.display = 'none';
-        }
-    });
 });
 
 function editPhoto() {
@@ -41,6 +34,9 @@ function editPhoto() {
 }
 
 function addToAlbum() {
-    console.log('Add to album option selected');
+    alert('Add to album option selected');
 }
 
+function sharePhoto() {
+    alert('Photo shared');
+}
